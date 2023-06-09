@@ -7,9 +7,13 @@
 @media (max-width: 992px) { 
     body{
         background-image: url(../images/wallMini.jpg);
+        overflow: hidden;
+        height: 50%;
     }
-    .film-2{
+    /* .film-2{
         float:left;
+    } */
+    .container{
+        top: 10%;
     }
  }
-
