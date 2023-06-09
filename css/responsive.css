@@ -49,5 +49,8 @@
     .button a{
         font-size: 25px;
     }
+    .modal{
+        top: 30%
+    }
  }
 
