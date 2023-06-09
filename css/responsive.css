@@ -8,9 +8,6 @@
     body{
         background-image: url(../images/background00s.jpg);
     }
-    /* .film{
-        width: 900px;
-    } */
     @keyframes move {
         0% { transform: translateY(-1200px); }
         50% { transform: translateY(-420px); }
@@ -34,23 +31,21 @@
         margin-left: 5%;
     }
     .container{
-        top: 25%;
+        top: 15%;
     }
     .span{
         max-width: 1000px;
         width: 900px;
     }
     .text-invite{
-        font-size: 33px;
+        font-size: 30px;
     }
-    /* .invitation{
-        padding: 10px;
-    } */
     .button a{
-        font-size: 25px;
+        font-size: 20px;
     }
     .modal{
         top: 30%
     }
+    
  }
 
