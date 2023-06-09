@@ -6,14 +6,48 @@
     
 @media (max-width: 992px) { 
     body{
-        background-image: url(../images/wallMini.jpg);
-        overflow: hidden;
-        height: 50%;
+        background-image: url(../images/background00s.jpg);
     }
-    /* .film-2{
-        float:left;
+    /* .film{
+        width: 900px;
     } */
+    @keyframes move {
+        0% { transform: translateY(-1200px); }
+        50% { transform: translateY(-420px); }
+        100% { transform: translateY(-1200px); }
+    }
+    .film{
+        opacity: 0.9;
+    }
+    .film-1{
+        animation: move 30s infinite;
+    }
+    .film-2{
+        animation: move 25s infinite;
+    }
+    .title{
+        max-width: 800px;
+    }
+    .sub-title{
+        max-width: 500px;
+        margin-top: -20%;
+        margin-left: 5%;
+    }
     .container{
-        top: 10%;
+        top: 25%;
+    }
+    .span{
+        max-width: 1000px;
+        width: 900px;
+    }
+    .text-invite{
+        font-size: 33px;
+    }
+    /* .invitation{
+        padding: 10px;
+    } */
+    .button a{
+        font-size: 25px;
     }
  }
+
